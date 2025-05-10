@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+section {
+    background-color: hsl(0, 0%, 12%);
+    width: 25%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 5em;
+    border-radius: 10px;
+}
+
+img {
+    width: 25%;
+    height: 20%;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 2em;
+}
+
+h3 {
+    color: white;
+    margin-top: 1em;
+    font-size: 1.4em;
+}
+
+h2 {
+    color: hsl(75, 94%, 57%);
+    margin-top: .5em;
+    font-size: 13.5px;
+}
+
+p {
+    color: hsl(0, 5%, 85%);
+    margin-top: 1.6em;
+    font-size: 13.5px;
+}
+
+.buttons {
+    display: grid;
+    margin-left: 4em;
+    margin-top: 2em;
+    gap: 1em;
+}
+
+.buttons button {
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    color: white;
+    width: 80%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.buttons button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
